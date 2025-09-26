@@ -21,6 +21,5 @@ int main() {
         }
         cout << "\n";
     }
-    cout << reset;
     return 0;
 }
