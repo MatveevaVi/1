@@ -10,13 +10,17 @@ int main() {
     cin>>w;
     cout<<"\nВведіть символ";
     cin>>c;
+    string color = "\033[31m"; 
+    cout<<"Вибраний колір червоний";
+    cout << color;
+    
     for (int i=0; i<a; i++){
         for (int j=0;j<w;j++){
-            if(i==0|| i==a-1 || j==0 || j==w-1)
-            cout<<c;
-        else
-            cout<<"";
+            if (i == 0 || i == a-1 || j == 0 || j == w-1) cout << c;
+            else cout << " ";
         }
         cout << "\n";
     }
+    cout << reset;
+    return 0;
 }
