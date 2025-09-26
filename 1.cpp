@@ -11,7 +11,7 @@ int main() {
     cout<<"\nВведіть символ";
     cin>>c;
     string color = "\033[31m"; 
-    cout<<"Вибраний колір червоний";
+    cout<<"Вибраний колір червоний\n";
     cout << color;
     
     for (int i=0; i<a; i++){
